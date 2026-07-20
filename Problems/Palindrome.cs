@@ -25,13 +25,14 @@ public class Palindrome
     public static void Run1()
     {
         string input = "madam";
+        StringBuilder sb = new StringBuilder(input);
         int left = 0;
         int right = input.Length - 1;
         bool isPalindrome = true;
 
         while (left < right)
         {
-            if (input[left] != input[right])
+            if (sb[left] != sb[right])
             {
                 isPalindrome = false;
                 break;
