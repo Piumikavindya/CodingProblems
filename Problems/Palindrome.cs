@@ -22,5 +22,25 @@ public class Palindrome
         }
     }
 
+    public static void Run1()
+    {
+        string input = "madam";
+        int left = 0;
+        int right = input.Length - 1;
+        bool isPalindrome = true;
+
+        while (left < right)
+        {
+            if (input[left] != input[right])
+            {
+                isPalindrome = false;
+                break;
+            }
+            left++;
+            right--;
+        }
+        Console.WriteLine(isPalindrome ? $"{input} is a palindrome." : $"{input} is not a palindrome.");
+    }
+
 
 }

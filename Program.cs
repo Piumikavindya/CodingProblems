@@ -14,3 +14,4 @@ Reverse_a_String.Run2();
 // Problem2 Palindrome
 Console.WriteLine("Problem 2: Palindrome");
 Palindrome.Run();
+Palindrome.Run1();
