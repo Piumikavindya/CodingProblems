@@ -20,3 +20,7 @@ Palindrome.Run1();
 Console.WriteLine("");
 Anagram.Run();
 Anagram.Run1();
+
+// Problem4 FizzBuzz
+Console.WriteLine("");
+FizzBuzz.Run();
