@@ -19,3 +19,4 @@ Palindrome.Run1();
 // Problem3 Anagram
 Console.WriteLine("");
 Anagram.Run();
+Anagram.Run1();
