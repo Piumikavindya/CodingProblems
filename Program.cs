@@ -41,3 +41,6 @@ Fibonacci.Run(10);
 // Problem8 ReverseNumber
 Console.WriteLine("");
 ReversNumber.Run(12345);
+
+// Problem9 Armstrong Number
+ArmstrongNumber.Run(153);
