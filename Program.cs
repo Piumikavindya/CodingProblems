@@ -37,3 +37,7 @@ PrimeNumber.Run(7);
 // Problem7 Fibonacci
 Console.WriteLine("");
 Fibonacci.Run(10);
+
+// Problem8 ReverseNumber
+Console.WriteLine("");
+ReversNumber.Run(12345);
