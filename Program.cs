@@ -28,5 +28,8 @@ FizzBuzz.Run();
 
 // Problem5 Factorial
 Console.WriteLine("");
-//Factorial fac = new Factorial();
 Factorial.Run(5);
+
+// Problem6 Prime Number
+Console.WriteLine("");
+PrimeNumber.Run(7);
