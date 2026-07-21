@@ -33,3 +33,7 @@ Factorial.Run(5);
 // Problem6 Prime Number
 Console.WriteLine("");
 PrimeNumber.Run(7);
+
+// Problem7 Fibonacci
+Console.WriteLine("");
+Fibonacci.Run(10);
