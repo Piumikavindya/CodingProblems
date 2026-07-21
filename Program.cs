@@ -1,4 +1,5 @@
-﻿using Problems;
+﻿
+using Problems;
 using static Problems.Program;
 
 // See https://aka.ms/new-console-template for more information
@@ -24,3 +25,8 @@ Anagram.Run1();
 // Problem4 FizzBuzz
 Console.WriteLine("");
 FizzBuzz.Run();
+
+// Problem5 Factorial
+Console.WriteLine("");
+//Factorial fac = new Factorial();
+Factorial.Run(5);
