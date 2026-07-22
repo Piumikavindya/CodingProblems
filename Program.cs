@@ -44,3 +44,7 @@ ReversNumber.Run(12345);
 
 // Problem9 Armstrong Number
 ArmstrongNumber.Run(153);
+
+// Problem10 Count Vouwels
+Console.WriteLine("");
+CountVowels.Run("Hello World");
