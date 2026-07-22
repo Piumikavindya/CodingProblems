@@ -48,3 +48,6 @@ ArmstrongNumber.Run(153);
 // Problem10 Count Vouwels
 Console.WriteLine("");
 CountVowels.Run("Hello World");
+
+// Problem11 Find Maximum
+FindMaximum.Run(new int[] { 3, 5, 2, 8, 1 });
